@@ -13,7 +13,8 @@
 	opacity: 0.4;
 	position: relative;
 	background-image: url('group_v.jpg');
-	background-repeat: no-repeat;
+	background-size: cover;
+	
 
 }
 
@@ -45,7 +46,7 @@
 	background-color: transparent;
 	position: relative;
 	color: #5DADE2;
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	font-family: Helvetica;
 	vertical-align: middle;
@@ -54,11 +55,83 @@
 
 .dsaText {
 	font-size: 20px;
+	text-align: left;
 }
 
 .dsaScore {
 	font-size: 20px;
+	text-align: left;
 }
+
+.numbWrapper {
+	background-color: white;
+	width: 119px;
+	height: 98px;
+	left: 91px;
+	bottom: 98px;
+	position: relative;
+}
+
+.numbBG {
+	background-color: #5499C7;
+	opacity: 0.9;
+	width: 118px;
+	height: 98px;
+	left: 1px;
+	bottom: 0px;
+	position: relative;
+	font-size: 85px;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+}
+
+.whBoxClear {
+	background-color: white;
+	width: 210px;
+	height: 25px;
+	left: 0px;
+	bottom: 99px;
+	position: relative;
+}
+
+.clearTxtBG {
+	background-color: #5DADE2;
+	width: 210px;
+	height: 24px;
+	left: 0px;
+	bottom: -1px;
+	position: relative;
+}
+
+.cleartxtBox {
+	background-color: #2980B9;
+	width: 60px;
+	height: 25px;
+	left: 0px;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+	font-size: 10px;
+	font-family: Helvetica;
+	line-height: 25px;
+}
+
+.findScoreBox {
+	background-color: #4FC3F7;
+	width: 150px;
+	height: 25px;
+	left: 60px;
+	bottom: 25px;
+	position: relative;
+	text-align: center;
+	font-size: 10px;
+	font-family: Helvetica;
+	line-height: 25px;
+}
+	
+
+
 
 
 
