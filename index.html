@@ -12,39 +12,76 @@
 </head>
 
 <body>
+
+    <!--    Right now this container only contains wrapper. This
+            should maybe contain all the markup and the closing tags
+            could go right before the closing body tag
+    -->
+
+    <!--    Overall, make sure you're tabbing everything correctly. You're
+            not closing divs and tags which is common if you don't have 
+            your code tabbed correctly. Also, fellow developers will want
+            get mad at you if their code is all clean and yours is all messy.
+            It's the equivlant of leaving your dirty dishes for other people
+            to wash.
+    -->
 	<div id = "container">
 		<div class="wrapper">
 		</div>
     </div>
+
+
     <div class="dsaWrapper">
+
     	<div class="dsaGrayBG">
-    		<div class="dsaTextWrapper">YOUR
+
+            <!-- dsaTextWrapper Feedback Start: maybe consider this for the markup
+
+            <div class='dsaWrapper'>
+                <p>Your DSA Score</p>
+            </div>
+
+            -->
+            
+            <!-- then this would go in your css
+
+            .dsaWrapper {
+                // style classes here
+            }
+            .dsaWrapper p {
+                
+            }
+
+            -->
+    		
+            <div class="dsaTextWrapper">YOUR
     			<div class="dsaText">DSA
-    				<div class="dsaScore">SCORE
-    				</div>
+    				<div class="dsaScore">SCORE</div>
     			</div>
     		</div>
+            <!-- dsaTextWrapper End -->
     	</div>
+
         <div class="numbWrapper">
-            <div class="numbBG">06
-            </div>
+            <div class="numbBG">06</div>
         </div>
         <div class="whBoxClear">
             <div class="clearTxtBG">
                 <div class="cleartxtBox">CLEAR
-                    <div class="findScoreBox">FIND YOUR DSA SCORE
-                    </div>
-            </div>
-         </div>
+                    
+                    <div class="findScoreBox">FIND YOUR DSA SCORE</div>
+                
+                </div>
+            <!-- close clearTxtBG div here -->
+        </div>
 
         <div id="btmNavBar">
             <div class="client">CLIENT WEBSITE</div>
-                <div class="dsa">DSA</div>
-                     <div class="crm">CRM/POSTING+</div>
-                        <div class="eSig">eSIGNATURE</div>
-                    
+            <div class="dsa">DSA</div>
+            <div class="crm">CRM/POSTING+</div>
+            <div class="eSig">eSIGNATURE</div>    
         </div>
-
+    <!-- dsaWrapper looks like it should be closed here -->
 
 </body>
 </html>
