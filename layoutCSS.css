@@ -126,10 +126,73 @@
 	position: relative;
 	text-align: center;
 	font-size: 10px;
-	font-family: Helvetica;
+	font-family: Arial;
 	line-height: 25px;
 }
+
+#btmNavBar {
+	background-color: transparent;
+	width: 650px;
+	height: 60px;
+	left: 400px;
+	bottom: 25px;
+	position: absolute;
 	
+}
+
+
+.client {
+	background-color: transparent;
+	width: 150px;
+	height: 60px;
+	left: 0px;
+	bottom: 0px;
+	line-height: 60px;
+	position: relative;
+	text-align: center;
+	
+
+}
+
+
+.dsa {
+	background-color: transparent;
+	width: 150px;
+	height: 60px;
+	left: 150px;
+	bottom: 60px;
+	line-height: 60px;
+	position: relative;
+	text-align: center;
+	
+
+}
+
+.crm {
+	background-color: transparent;
+	width: 150px;
+	height: 60px;
+	left: 300px;
+	bottom: 120px;
+	line-height: 60px;
+	position: relative;
+	text-align: center;
+	
+
+}
+	
+.eSig {
+	background-color: transparent;
+	width: 150px;
+	height: 60px;
+	left: 450px;
+	bottom: 180px;
+	line-height: 60px;
+	position: relative;
+	text-align: center;
+	
+
+}	
 
 
 
