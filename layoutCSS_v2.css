@@ -104,4 +104,37 @@
 
 }
 
+nav {
+	background-color: transparent;
+	width: 650px;
+	height: 60px;
+	left: 500px;
+	bottom: 87px;
+	position: absolute;
+}
+
+ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+li a {
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 14px;
+	background-color: transparent;
+	padding: 10px 10px 10px 10px;
+
+}
+
+li a:hover:not(.active) {
+	color: white;
+}
+
+.active li a {
+	color: white;
+}
+
 
