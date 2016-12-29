@@ -1,21 +1,50 @@
 'use strict';
+//import com.greensock.*;
+//import com.greensock.easing.*;
 
-var _dsaBox = document.getElementById(".dsaBox");
+function chunkArrayInGroups(arr, size) {
+   var finalarr = [];
+  var i = 0;
+  while ( i < arr.length ) {
+    finalarr.push(arr.slice( i, i += size));
+    console.log(i);
+    console.log(size);
+    console.log(finalarr);
+    //console.log(arr);
+  }
+  console.log(finalarr);
+  return finalarr;
+}
 
-$(document).ready(function() {
-    $('.dsaBox').click(function() {
-        alert('test');
-    })
-});
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
-/*
+//var _dsaBox = document.getElementById(".dsaBox");
+
+//function moveBox(element){
+//TweenMax.to(".dsaBox", 2, {left: 200});
+//}
+////
+//var numTxt = new SplitText(".numBox p", {type:"chars"}),
+//	numBxChars = numTxt.chars.length,
+//	tl = new TimelineMax({delay:0.5, repeat:-1});
+//
+//TweenLite.set(".numBox", {visibility:"visible"});
+//tl.staggerTo(numTxt.chars, 0.8, {ease:Back.easeOut, cycle:{y:[100, -100], rotation:[-120, 120]}, opacity: 0,}, 0.03, "+=1");
+
+//$(document).ready(function() {
+//    $('.dsaBox').click(function() {
+//        tween.('dasBox');
+//  })
+//});
+
+
 (function _init(){
-	alert("Test!!");
+	moveBox(".dsaBox");
 })();
-*/
-function testClick(){
-	
 
+function testClick(){
+	document.getElementById('numBox').innerHTML('You jackass');
+	
 }
 
 function _animateIn(){
