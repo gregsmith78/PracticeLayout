@@ -3,16 +3,18 @@
     height:100%;
     background-color:gray;
     position: absolute;
+    background-image: url('group_v.jpg');
+    background-size: cover;
+    opacity: 0.6;
 }
-
+/*
 .bgImg {
 	width: 99%;
 	height: 100%;
 	background-color: black;
-	opacity: 0.4;
 	position: absolute;
-	background-image: url('group_v.jpg');
-	background-size: cover;
+	
+	
 }
 
 .dsaWrapper {
@@ -21,11 +23,11 @@
 	bottom: 65px;
 	left: 60px;
 	opacity: 0.8;
-	position: absolute;
-	background-color: white;
-	z-index: 20;
+	position: relative;
+	background-color: orange;
+	z-index: 100;
 }
-
+*/
 .dsaBox {
 	width: 91px;
 	height: 98px;
@@ -51,7 +53,7 @@
 	height: 98px;
 	top: 234px;
 	left: 152px;
-	opacity: 0.6;
+	opacity: 0.9;
 	background-color: #5DADE2;
 	position: relative;
 	text-align: left;
@@ -68,22 +70,23 @@
 	line-height: 98px;
 }
 
-.cleartxtBox {
+.clearTxtBox {
 	background-color: #2980B9;
 	width: 60px;
 	height: 23px;
 	left: 60px;
-	bottom: -225px;
-	position: relative;
-	z-index: 25;
+	bottom: 65px;
+	position: absolute;
+	z-index: 27;
 
 }
 
-.cleartxtBox p {
+.clearTxtBox p {
+	bottom-margin: 8em;
 	text-align: center;
 	font-size: 10px;
 	font-family: Helvetica;
-	line-height: 25px;
+	line-height: 5px;
 }
 
 .findScoreBox {
@@ -91,7 +94,7 @@
 	width: 150px;
 	height: 23px;
 	left: 120px;
-	bottom: -192px;
+	bottom: -225px;
 	position: relative;
 	z-index: 26;
 }
