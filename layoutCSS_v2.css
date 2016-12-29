@@ -16,23 +16,24 @@
 	
 	
 }
-
+*/
 .dsaWrapper {
 	width: 210px;
 	height: 122px;
 	bottom: 65px;
 	left: 60px;
 	opacity: 0.8;
-	position: relative;
-	background-color: orange;
-	z-index: 100;
+	position: absolute;
+	background-color: transparent;
+	z-index: 20;
 }
-*/
+
 .dsaBox {
 	width: 91px;
 	height: 98px;
-	top: 395px;
-	left: 60px;
+	bottom: 65px;
+	top: -16px;
+	left: 0px;
 	background-color: #566573;
 	position: relative;
 	z-index: 21;
@@ -51,8 +52,8 @@
 .numBox {
 	width: 118px;
 	height: 98px;
-	top: 234px;
-	left: 152px;
+	top: -177px;
+	left: 92px;
 	opacity: 0.9;
 	background-color: #5DADE2;
 	position: relative;
@@ -74,9 +75,9 @@
 	background-color: #2980B9;
 	width: 60px;
 	height: 23px;
-	left: 60px;
-	bottom: 65px;
-	position: absolute;
+	left: 0px;
+	top: -186px;
+	position: relative;
 	z-index: 27;
 
 }
@@ -86,15 +87,15 @@
 	text-align: center;
 	font-size: 10px;
 	font-family: Helvetica;
-	line-height: 5px;
+	line-height: 23px;
 }
 
 .findScoreBox {
 	background-color: #4FC3F7;
 	width: 150px;
 	height: 23px;
-	left: 120px;
-	bottom: -225px;
+	left: 60px;
+	bottom: 219px;
 	position: relative;
 	z-index: 26;
 }
@@ -122,11 +123,12 @@ ul li {
 }
 
 li a {
-	color: yellow;
+	color: black;
+	opacity: 1;
 	text-decoration: none;
 	text-align: center;
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 16px;
 	background-color: transparent;
 	padding: 10px 10px 10px 10px;
 
