@@ -48,7 +48,7 @@
 	color: #5DADE2;
 	text-align: left;
 	font-size: 20px;
-	font-family: Helvetica;
+	font-family: helvetica;
 	vertical-align: middle;
 
 }
@@ -137,6 +137,7 @@
 	left: 400px;
 	bottom: 25px;
 	position: absolute;
+	font-family: Arial;
 	
 }
 

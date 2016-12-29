@@ -1,0 +1,68 @@
+<!-- 	While you're beginning, validate your markup with 
+		this: https://validator.w3.org/#validate_by_upload 
+		or you can install this through Sublime Text: 
+		https://packagecontrol.io/packages/W3CValidators 
+--> 
+
+<!doc html>
+<head>
+	<html lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>greg's Practice Layout</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="layoutCSS_v2.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+
+</head>
+
+<body>
+
+	<div id = 'container'>
+		
+		<!-- 	You really shouldn't have extraneous markup that only is used 
+				for styles. Could you apply whatever you're doing to bgImg and
+				dsaWrapper to the container -->
+
+		<div class = 'bgImg'></div> <!-- can you do this to container? Then you can delete this line -->
+
+		<div class = 'dsaWrapper'></div> <!-- can you do this to container? Then you can delete this line -->
+
+		<div class  = 'dsaBox' onclick = 'myScript'>
+			<p>YOUR</br>
+			   DSA</br>
+			   SCORE</br>
+			</p>
+			<!-- not bad, but is there a way to do this without the br's -->
+		</div>
+
+		<div class = 'numBox'>
+			<p>06</p>
+		</div>
+
+		<div class = 'clearTxtBox'>
+			<p>CLEAR</p>
+		</div>
+
+		<div class = 'findScoreBox'>
+			<p>FIND YOUR SCORE</p>
+		</div>
+
+		<nav> <!-- no closing tag on 'nav' -->
+			<ul>
+				<li><a href = '#client'>CLIENT WEBSITE</a></li>
+				<li><a href = '#ppa'>PPA</a></li>
+				<li><a href = '#crm/posting'>CRM/POSTING+</a></li>
+				<li><a href = '#esig'>eSIGNATURE</a><li>
+			</ul>
+	</div>
+
+
+
+
+<script src = "javascript.js"></script>
+
+
+</body>
