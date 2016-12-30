@@ -1,0 +1,36 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+/* END OF RESET */
+
+#main {
+	position: relative;
+	width: 80%;
+	height: auto;
+	background-color: red;
+}
+
+.leftcolumn {
+	display: block;
+	position: relative;
+	float: left;
+	width: 60%;
+	background-color: blue;
+	height: auto;
+}
+.leftcolumn p {
+	display: block;
+	float: left;
+}
+.rightcolumn {
+	display: block;
+	position: relative;
+	float: left;
+	width: 34%;
+	background-color: yellow;
+}
